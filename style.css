@@ -42,6 +42,10 @@ background-color:#e8e8ec;
 .list{
     margin-left: auto;
 }
+.card-body h5{
+    text-align: center;
+}
+
 
  #navigation #get-started a{
     background-color: rgb(97, 95, 201);
@@ -51,6 +55,38 @@ background-color:#e8e8ec;
      margin: 0 15px;
 }
 #navigation #get-started a:hover{
+     background-color: rgb(103, 133, 221);
+     color: #fff;
+}
+.card {
+    width: 200px;
+    height: 250px;
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    margin-bottom: 20px; 
+  }
+  
+  .card:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+.btn1{
+    background-color: rgb(97, 95, 201);
+    color: #fff;
+    border-radius: 50px;
+    padding: 10px 45px;
+     margin: 0 15px;
+     outline:rgb(97, 95, 201) ;
+     justify-content: center;
+     margin-left: 60px;
+    
+}
+.btn1:active{
+    background-color: rgb(103, 133, 221);
+    color: #fff;
+}
+.btn1:hover{
      background-color: rgb(103, 133, 221);
      color: #fff;
 }
